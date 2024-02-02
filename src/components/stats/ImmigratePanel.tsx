@@ -55,7 +55,7 @@ export const ImmigratePanel = () => {
     if (
       textarea &&
       window.confirm(
-        'Are you sure you want to override the statistics on this device? This action is not reversable.'
+        'Är du säker på att du vill överföra statistik till denna enhet? Åtgärden går inte att ångra.'
       )
     ) {
       var migrationStats = JSON.parse(
@@ -71,7 +71,7 @@ export const ImmigratePanel = () => {
         saveStatsToLocalStorage(migrationStats.statistics)
       }
 
-      alert('The site will now reload.')
+      alert('Sidan kommer nu laddas om.')
 
       window.location.reload()
     }
@@ -83,7 +83,7 @@ export const ImmigratePanel = () => {
         htmlFor="message"
         className="mb-2 block text-left text-sm font-medium text-gray-900 dark:text-gray-400"
       >
-        Paste your migration code:
+        Klistra in din migrationskod:
       </label>
       <textarea
         onChange={(e) => handleImmigrationCodeChange(e)}
@@ -101,7 +101,7 @@ export const ImmigratePanel = () => {
         {isSaveButtonEnabled && (
           <SaveIcon className="mr-2 h-6 w-6 cursor-pointer dark:stroke-white" />
         )}
-        Save
+        Spara
       </button>
     </div>
   )
