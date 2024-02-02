@@ -1,4 +1,4 @@
-import { sv } from 'date-fns/locale'
+import { svSE } from 'date-fns/locale'
 
 export const MAX_CHALLENGES = 6
 export const ALERT_TIME_MS = 2000
