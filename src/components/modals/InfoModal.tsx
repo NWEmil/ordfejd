@@ -8,65 +8,77 @@ type Props = {
 
 export const InfoModal = ({ isOpen, handleClose }: Props) => {
   return (
-    <BaseModal title="How to play" isOpen={isOpen} handleClose={handleClose}>
+    <BaseModal title="Instruktioner" isOpen={isOpen} handleClose={handleClose}>
       <p className="text-sm text-gray-500 dark:text-gray-300">
-        Guess the word in 6 tries. After each guess, the color of the tiles will
-        change to show how close your guess was to the word.
+        Du har 6 försök att gissa dagens ord på 5 bokstäver. Brickorna byter färg efter varje gissning 
+        beroende på om bokstäverna hamnat på rätt eller fel plats, eller om de inte finns med.
       </p>
 
       <div className="mb-1 mt-4 flex justify-center">
         <Cell
           isRevealing={true}
           isCompleted={true}
-          value="W"
+          value="H"
           status="correct"
         />
-        <Cell value="E" isCompleted={true} />
-        <Cell value="A" isCompleted={true} />
-        <Cell value="R" isCompleted={true} />
-        <Cell value="Y" isCompleted={true} />
+        <Cell value="J" isCompleted={true} />
+        <Cell value="Ä" isCompleted={true} />
+        <Cell value="L" isCompleted={true} />
+        <Cell value="P" isCompleted={true} />
       </div>
       <p className="text-sm text-gray-500 dark:text-gray-300">
-        The letter W is in the word and in the correct spot.
+        Bokstaven H finns i ordet och är på rätt plats.
       </p>
 
       <div className="mb-1 mt-4 flex justify-center">
-        <Cell value="P" isCompleted={true} />
-        <Cell value="I" isCompleted={true} />
+        <Cell value="F" isCompleted={true} />
+        <Cell value="Ö" isCompleted={true} />
         <Cell
           isRevealing={true}
           isCompleted={true}
-          value="L"
+          value="R"
           status="present"
         />
-        <Cell value="O" isCompleted={true} />
+        <Cell value="S" isCompleted={true} />
         <Cell value="T" isCompleted={true} />
       </div>
       <p className="text-sm text-gray-500 dark:text-gray-300">
-        The letter L is in the word but in the wrong spot.
+        Bokstaven R finns i ordet, men är på fel plats.
       </p>
 
       <div className="mb-1 mt-4 flex justify-center">
+        <Cell value="S" isCompleted={true} />
         <Cell value="V" isCompleted={true} />
-        <Cell value="A" isCompleted={true} />
-        <Cell value="G" isCompleted={true} />
-        <Cell isRevealing={true} isCompleted={true} value="U" status="absent" />
-        <Cell value="E" isCompleted={true} />
+        <Cell value="Å" isCompleted={true} />
+        <Cell isRevealing={true} isCompleted={true} value="R" status="absent" />
+        <Cell value="T" isCompleted={true} />
       </div>
       <p className="text-sm text-gray-500 dark:text-gray-300">
-        The letter U is not in the word in any spot.
+        Bokstaven R hör inte hemma i ordet vi söker.
       </p>
 
       <p className="mt-6 text-sm italic text-gray-500 dark:text-gray-300">
-        This is an open source version of the word guessing game we all know and
-        love -{' '}
+        Spelet är baserad på Wordle av Josh Wardle.<br />Databasens ordlista är inhämtad från SAOLhist.<br />
+      {' '}
         <a
-          href="https://github.com/cwackerfuss/react-wordle"
-          className="font-bold underline"
+          href="https://forms.gle/NJQDUxK5Z1KLq5tk6" target="_blank" rel="noreferrer"
+          className="font-bold"
         >
-          check out the code here
-        </a>{' '}
-      </p>
+          Saknas ett ord?
+        </a>{' '} 📚
+                {' '}
+        <a
+          href="https://svordle.vercel.app/om.html" target="_blank" rel="noreferrer"
+          className="font-bold"
+        >
+          Om
+        </a>{' '} ℹ️&nbsp;
+        <a
+          href="https://svordle.vercel.app/privacypolicy.html" target="_blank" rel="noreferrer"
+          className="font-bold"
+        >
+           Integritetspolicy
+        </a>{' '} 📜</p>
     </BaseModal>
   )
 }
