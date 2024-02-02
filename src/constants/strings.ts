@@ -1,39 +1,39 @@
 export const GAME_TITLE = process.env.REACT_APP_GAME_NAME!
 
-export const WIN_MESSAGES = ['Great Job!', 'Awesome', 'Well done!']
-export const GAME_COPIED_MESSAGE = 'Game copied to clipboard'
-export const NOT_ENOUGH_LETTERS_MESSAGE = 'Not enough letters'
-export const WORD_NOT_FOUND_MESSAGE = 'Word not found'
+export const WIN_MESSAGES = ['Stämmer!', 'Klart!', 'Lämpligt!', 'Riktigt!', 'Schysst!', 'Rätt!', 'Korrekt!']
+export const GAME_COPIED_MESSAGE = 'Resultatet är kopierat till klippbordet!'
+export const NOT_ENOUGH_LETTERS_MESSAGE = 'Inte tillräckligt med bokstäver!'
+export const WORD_NOT_FOUND_MESSAGE = 'Ordet hittades inte!'
 export const HARD_MODE_ALERT_MESSAGE =
-  'Hard Mode can be enabled only at the start!'
+  'Svårt läge måste aktiveras före spelets början!'
 export const HARD_MODE_DESCRIPTION =
-  'Any revealed hints must be used in subsequent guesses'
-export const HIGH_CONTRAST_MODE_DESCRIPTION = 'For improved color vision'
+  'Nästa gissning måste innehålla hittade bokstäver'
+export const HIGH_CONTRAST_MODE_DESCRIPTION = 'Läge som kan underlätta vid färgblindhet'
 export const CORRECT_WORD_MESSAGE = (solution: string) =>
-  `The word was ${solution}`
+  `Ordet var ${solution}`
 export const WRONG_SPOT_MESSAGE = (guess: string, position: number) =>
-  `Must use ${guess} in position ${position}`
+  `Måste ha ${guess} i position ${position}`
 export const NOT_CONTAINED_MESSAGE = (letter: string) =>
-  `Guess must contain ${letter}`
-export const ENTER_TEXT = 'Enter'
-export const DELETE_TEXT = 'Delete'
-export const STATISTICS_TITLE = 'Statistics'
-export const GUESS_DISTRIBUTION_TEXT = 'Guess Distribution'
-export const NEW_WORD_TEXT = 'New word in'
-export const SHARE_TEXT = 'Share'
+  `Ordet måste innehålla ${letter}`
+export const ENTER_TEXT = 'Skicka'
+export const DELETE_TEXT = 'Radera'
+export const STATISTICS_TITLE = 'Statistik'
+export const GUESS_DISTRIBUTION_TEXT = 'Gissningar'
+export const NEW_WORD_TEXT = 'Nytt ord om'
+export const SHARE_TEXT = 'Dela'
 export const SHARE_FAILURE_TEXT =
-  'Unable to share the results. This feature is available only in secure contexts (HTTPS), in some or all supporting browsers.'
-export const MIGRATE_BUTTON_TEXT = 'Transfer'
+  'Det gick inte att dela resultatet. Denna funktion är bara tillgänglig i en säker miljö (HTTPS) som fungerar i de flesta webbläsaralternativ.'
+export const MIGRATE_BUTTON_TEXT = 'Överför'
 export const MIGRATE_DESCRIPTION_TEXT =
-  'Click here to transfer your statistics to a new device.'
-export const TOTAL_TRIES_TEXT = 'Total tries'
-export const SUCCESS_RATE_TEXT = 'Success rate'
-export const CURRENT_STREAK_TEXT = 'Current streak'
-export const BEST_STREAK_TEXT = 'Best streak'
+  'Klicka här för att överföra din statistik till en ny enhet.'
+export const TOTAL_TRIES_TEXT = 'Totalt antal försök'
+export const SUCCESS_RATE_TEXT = 'Lyckade gissningar'
+export const CURRENT_STREAK_TEXT = 'Nuvarande vinster i rad'
+export const BEST_STREAK_TEXT = 'Bäst antal vinster i rad'
 export const DISCOURAGE_INAPP_BROWSER_TEXT =
-  "You are using an embedded browser and may experience problems sharing or saving your results. We encourage you rather to use your device's default browser."
+  "Du använder en inbäddad webbläsare och kan erfara problem med att dela och spara ditt resultat. Enhetens standardwebbläsare rekommenderas."
 
-export const DATEPICKER_TITLE = 'Choose a past date'
-export const DATEPICKER_CHOOSE_TEXT = 'Choose'
-export const DATEPICKER_TODAY_TEXT = 'today'
-export const ARCHIVE_GAMEDATE_TEXT = 'Game date'
+export const DATEPICKER_TITLE = 'Välj ett tidigare datum'
+export const DATEPICKER_CHOOSE_TEXT = 'Välj'
+export const DATEPICKER_TODAY_TEXT = 'Idag'
+export const ARCHIVE_GAMEDATE_TEXT = 'Speldatum'
