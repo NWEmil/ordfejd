@@ -10,4 +10,4 @@ export const ENABLE_MIGRATE_STATS = true
 export const BLOWFISH_KEY = 'xcQUAHsik#Thq&LG*8es2DsZ$3bw^e'
 export const BLOWFISH_IV = '#45XmF^w'
 export const ENABLE_ARCHIVED_GAMES = true
-export const DATE_LOCALE = sv_SE
+export const DATE_LOCALE = sv-SE
