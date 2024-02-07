@@ -1,4 +1,4 @@
-export const GAME_TITLE = process.env.REACT_APP_GAME_NAME
+export const GAME_TITLE = process.env.REACT_APP_GAME_NAME!
 
 export const WIN_MESSAGES = ['Stämmer!', 'Klart!', 'Lämpligt!', 'Riktigt!', 'Schysst!', 'Rätt!', 'Korrekt!']
 export const GAME_COPIED_MESSAGE = 'Resultatet är kopierat till klippbordet!'
