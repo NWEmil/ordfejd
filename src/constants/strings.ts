@@ -7,8 +7,8 @@ export const WORD_NOT_FOUND_MESSAGE = 'Ordet hittades inte!'
 export const HARD_MODE_ALERT_MESSAGE =
   'Svårt läge måste aktiveras före spelets början!'
 export const HARD_MODE_DESCRIPTION =
-  'Nästa gissning måste innehålla hittade bokstäver'
-export const HIGH_CONTRAST_MODE_DESCRIPTION = 'Läge som kan underlätta vid färgblindhet'
+  'Nästa gissning måste innehålla hittade bokstäver.'
+export const HIGH_CONTRAST_MODE_DESCRIPTION = 'Läge som kan underlätta vid färgblindhet.'
 export const CORRECT_WORD_MESSAGE = (solution: string) =>
   `Ordet var ${solution}`
 export const WRONG_SPOT_MESSAGE = (guess: string, position: number) =>
@@ -29,7 +29,7 @@ export const MIGRATE_DESCRIPTION_TEXT =
 export const TOTAL_TRIES_TEXT = 'Totalt antal försök'
 export const SUCCESS_RATE_TEXT = 'Lyckade gissningar'
 export const CURRENT_STREAK_TEXT = 'Nuvarande vinster i rad'
-export const BEST_STREAK_TEXT = 'Bäst antal vinster i rad'
+export const BEST_STREAK_TEXT = 'Mest antal vinster i rad'
 export const DISCOURAGE_INAPP_BROWSER_TEXT =
   "Du använder en inbäddad webbläsare och kan erfara problem med att dela och spara ditt resultat. Enhetens standardwebbläsare rekommenderas."
 
