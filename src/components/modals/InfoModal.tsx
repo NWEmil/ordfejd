@@ -66,7 +66,7 @@ export const InfoModal = ({ isOpen, handleClose }: Props) => {
         >
           Saknas ett ord?
         </a>{' '} 📚
-                {' '} ℹ️&nbsp;
+                {' '}
         <a
           href="https://ordfejd.se/privacypolicy.html" target="_blank" rel="noreferrer"
           className="font-bold"
