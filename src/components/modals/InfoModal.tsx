@@ -66,15 +66,9 @@ export const InfoModal = ({ isOpen, handleClose }: Props) => {
         >
           Saknas ett ord?
         </a>{' '} 📚
-                {' '}
+                {' '} ℹ️&nbsp;
         <a
-          href="https://svordle.vercel.app/om.html" target="_blank" rel="noreferrer"
-          className="font-bold"
-        >
-          Om
-        </a>{' '} ℹ️&nbsp;
-        <a
-          href="https://svordle.vercel.app/privacypolicy.html" target="_blank" rel="noreferrer"
+          href="https://ordfejd.se/privacypolicy.html" target="_blank" rel="noreferrer"
           className="font-bold"
         >
            Integritetspolicy
