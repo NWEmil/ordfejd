@@ -1,0 +1,7 @@
+{
+  "name": "Ordfejd",
+  "integrations": {
+    "capacitor": {}
+  },
+  "type": "react"
+}
