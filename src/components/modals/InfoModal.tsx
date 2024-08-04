@@ -64,7 +64,7 @@ export const InfoModal = ({ isOpen, handleClose }: Props) => {
           href="https://play.google.com/store/apps/details?id=io.ionic.ordfejd&hl=sv" target="_blank" rel="noreferrer"
           className="font-bold"
         >
-          En version som inte kräver uppkoppling finns på Google Play
+          Spelet på Google Play kräver inte nätverk
         </a>{' '} ▶️
                 {' '} 
         <a
@@ -72,7 +72,7 @@ export const InfoModal = ({ isOpen, handleClose }: Props) => {
           className="font-bold"
         >
            Kontakta oss
-        </a>{' '} 📯</p>
+        </a>{' '} 🛜</p>
     </BaseModal>
   )
 }
