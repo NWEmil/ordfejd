@@ -61,18 +61,18 @@ export const InfoModal = ({ isOpen, handleClose }: Props) => {
         Spelet är baserad på Wordle av Josh Wardle.<br />Databasens ordlista är inhämtad från SAOLhist.<br />
       {' '}
         <a
-          href="https://forms.gle/NJQDUxK5Z1KLq5tk6" target="_blank" rel="noreferrer"
+          href="https://play.google.com/store/apps/details?id=io.ionic.ordfejd&hl=sv" target="_blank" rel="noreferrer"
           className="font-bold"
         >
-          Saknas ett ord?
-        </a>{' '} 📚
+          En version som inte kräver uppkoppling finns på Google Play
+        </a>{' '} ▶️
                 {' '} 
         <a
-          href="https://ordfejd.se/privacypolicy.html" target="_blank" rel="noreferrer"
+          href="https://ordfejd.se/privacypolicy" target="_blank" rel="noreferrer"
           className="font-bold"
         >
-           Integritetspolicy
-        </a>{' '} 📜</p>
+           Kontakta oss
+        </a>{' '} 📯</p>
     </BaseModal>
   )
 }
