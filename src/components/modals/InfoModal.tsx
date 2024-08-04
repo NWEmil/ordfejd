@@ -58,7 +58,7 @@ export const InfoModal = ({ isOpen, handleClose }: Props) => {
       </p>
 
       <p className="mt-6 text-sm text-gray-500 dark:text-gray-300">
-        Spelet är baserad på Wordle av Josh Wardle.<br />Databasens ordlista är inhämtad från SAOLhist.<br />
+        Spelet är baserat på Wordle av Josh Wardle.<br />Databasens ordlista är inhämtad från SAOLhist.<br />
         <a
           href="https://play.google.com/store/apps/details?id=io.ionic.ordfejd" target="_blank" rel="noreferrer"
           className="font-bold"
