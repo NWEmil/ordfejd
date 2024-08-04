@@ -68,7 +68,7 @@ export const InfoModal = ({ isOpen, handleClose }: Props) => {
                  {' '} 
         <a
           href="https://ordfejd.se/privacypolicy" target="_blank" rel="noreferrer"
-          className="italic font-bold"
+          className="font-bold"
         >
            Integritetspolicy
         </a>{' '} 📜
