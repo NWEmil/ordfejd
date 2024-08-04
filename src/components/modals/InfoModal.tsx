@@ -57,28 +57,28 @@ export const InfoModal = ({ isOpen, handleClose }: Props) => {
         Bokstaven R hör inte hemma i ordet vi söker.
       </p>
 
-      <p className="mt-6 text-sm italic text-gray-500 dark:text-gray-300">
+      <p className="mt-6 text-sm text-gray-500 dark:text-gray-300">
         Spelet är baserad på Wordle av Josh Wardle.<br />Databasens ordlista är inhämtad från SAOLhist.<br />
         <a
-          href="https://forms.gle/NJQDUxK5Z1KLq5tk6" target="_blank" rel="noreferrer"
+          href="https://play.google.com/store/apps/details?id=io.ionic.ordfejd" target="_blank" rel="noreferrer"
           className="font-bold"
         >
-          Saknas ett ord?
-        </a>{' '} 📚
+          Spelversionen på Google Play kräver inte nätverk
+        </a>{' '} ▶️
                  {' '} 
         <a
-          href="https://ordfejd.se/privacypolicy.html" target="_blank" rel="noreferrer"
+          href="https://ordfejd.se/privacypolicy" target="_blank" rel="noreferrer"
           className="font-bold"
         >
            Integritetspolicy
         </a>{' '} 📜
                 {' '} 
         <a
-          href="https://ordfejd.se/privacypolicy.html" target="_blank" rel="noreferrer"
+          href="https://x.com/Tankebyggare" target="_blank" rel="noreferrer"
           className="font-bold"
         >
-           Integritetspolicy
-        </a>{' '} 📜</p>
+           Kontakta oss
+        </a>{' '} 💬</p>
     </BaseModal>
   )
 }
