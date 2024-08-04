@@ -59,23 +59,22 @@ export const InfoModal = ({ isOpen, handleClose }: Props) => {
 
       <p className="mt-6 text-sm italic text-gray-500 dark:text-gray-300">
         Spelet är baserad på Wordle av Josh Wardle.<br />Databasens ordlista är inhämtad från SAOLhist.<br />
-      {' '}
         <a
-          href="https://play.google.com/store/apps/details?id=io.ionic.ordfejd&hl=sv" target="_blank" rel="noreferrer"
+          href="https://forms.gle/NJQDUxK5Z1KLq5tk6" target="_blank" rel="noreferrer"
           className="font-bold"
         >
-          Google Play-versionen av spelet fungerar utan nätverk
-        </a>{' '} ▶️</p>
-                {' '} 
+          Saknas ett ord?
+        </a>{' '} 📚
+                 {' '} 
         <a
-          href="https://x.com/Tankebyggare" target="_blank" rel="noreferrer"
+          href="https://ordfejd.se/privacypolicy.html" target="_blank" rel="noreferrer"
           className="font-bold"
         >
-           Kontakt
-        </a>{' '} 💬</p>
+           Integritetspolicy
+        </a>{' '} 📜
                 {' '} 
         <a
-          href="https://ordfejd.se/privacypolicy" target="_blank" rel="noreferrer"
+          href="https://ordfejd.se/privacypolicy.html" target="_blank" rel="noreferrer"
           className="font-bold"
         >
            Integritetspolicy
