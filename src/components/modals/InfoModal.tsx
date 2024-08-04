@@ -63,12 +63,12 @@ export const InfoModal = ({ isOpen, handleClose }: Props) => {
           href="https://play.google.com/store/apps/details?id=io.ionic.ordfejd" target="_blank" rel="noreferrer"
           className="font-bold"
         >
-          Spelversionen på Google Play kräver inte nätverk
+          Spelet via Google Play fungerar utan nätverk
         </a>{' '} ▶️
                  {' '} 
         <a
           href="https://ordfejd.se/privacypolicy" target="_blank" rel="noreferrer"
-          className="font-bold"
+          className="italic font-bold"
         >
            Integritetspolicy
         </a>{' '} 📜
@@ -77,7 +77,7 @@ export const InfoModal = ({ isOpen, handleClose }: Props) => {
           href="https://x.com/Tankebyggare" target="_blank" rel="noreferrer"
           className="font-bold"
         >
-           Kontakta oss
+           Kontakt
         </a>{' '} 💬</p>
     </BaseModal>
   )
