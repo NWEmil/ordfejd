@@ -65,7 +65,7 @@ export const InfoModal = ({ isOpen, handleClose }: Props) => {
           className="font-bold"
         >
           Google Play-versionen av spelet fungerar utan nätverk
-        </a>{' '} ▶️
+        </a>{' '} ▶️</p>
                 {' '} 
         <a
           href="https://x.com/Tankebyggare" target="_blank" rel="noreferrer"
