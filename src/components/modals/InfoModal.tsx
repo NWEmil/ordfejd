@@ -71,14 +71,7 @@ export const InfoModal = ({ isOpen, handleClose }: Props) => {
           className="font-bold"
         >
            Integritetspolicy
-        </a>{' '} 📜
-                {' '} 
-        <a
-          href="https://x.com/Tankebyggare" target="_blank" rel="noreferrer"
-          className="font-bold"
-        >
-           Kontakt
-        </a>{' '} 💬</p>
+        </a>{' '} 📜</p>
     </BaseModal>
   )
 }
